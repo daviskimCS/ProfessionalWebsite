@@ -1,0 +1,71 @@
+.navBar {
+  background-color: rgba(254, 254, 254, 0.9);
+  position: fixed;
+  top: 1.5em;
+  width: 35em;
+  height: 2.25em;
+  z-index: 1000;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 2em;
+  padding: 0.25em;
+  font-weight: 600;
+  box-shadow: 0.01em 0.01em 1em 0.01em rgba(0, 0, 0, 0.15);
+}
+
+.navItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 0.75em;
+  padding: 0.25em 0.5em;
+  height: 2em;
+  border-radius: 1.75em;
+  color: rgb(4, 7, 19);
+}
+
+.selected .navLink {
+  color: black !important;
+  text-decoration: bold;
+}
+
+.navItem:first-of-type {
+  margin-left: 0.4em;
+}
+
+.navItem:last-of-type {
+  margin-right: 0.4em;
+}
+
+.navLink {
+  color: rgb(107, 114, 128);
+  padding-right: 0.25em;
+  text-decoration: none;
+  opacity: 80%;
+}
+
+.navLink:visited {
+  color: rgb(107, 114, 128);
+}
+
+.navLink:hover {
+  color: rgb(3, 7, 18);
+}
+
+.selected {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(243,244,246);
+  padding: 0.25em 0.5em;
+  height: 2em;
+  border-radius: 1.75em;
+}
+
+/* add animation between switching manually and scrolling */

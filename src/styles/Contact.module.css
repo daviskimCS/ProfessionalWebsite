@@ -1,0 +1,65 @@
+.contactContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8em;
+  height: fit-content;
+}
+
+.title {
+  color: black;
+  font-size: 2em;
+  font-weight: 450;
+  margin: 1em 0em;
+}
+
+.buttonContainer {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2em;
+  width: 100%;
+}
+
+.contactButton {
+  width: 15%;
+  height: 3em;
+  display: flex;
+  flex-flow: row;
+  flex-direction: row;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 1.5em;
+  background-color: white;
+  opacity: 90%;
+  font-weight: 600;
+  box-shadow: 0.01em 0.01em 1em 0.01em rgba(0, 0, 0, 0.15);
+  justify-content: center;
+  transition: transform 0.3s ease-in-out;
+  transform-origin: center;
+}
+
+.contactButton:hover {
+  box-shadow: 0.01em 0.01em 1em 0.01em rgba(0, 0, 0, 0.5);
+  transform: scale(1.05);
+}
+
+.contactButton a p {
+  margin: 0 0.5em;
+}
+
+.linkedinLogo {
+  height: 65%;
+  margin: 0 0.75em 0 0;
+}
+
+.mailLogo {
+  height: 50%;
+  margin: 0 0.75em 0 0;
+}
+
+.githubLogo {
+  height: 70%;
+  margin: 0 0.75em 0 0;
+}

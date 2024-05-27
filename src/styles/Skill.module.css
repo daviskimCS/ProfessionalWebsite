@@ -1,0 +1,51 @@
+.skillContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8em;
+  height: fit-content;
+}
+
+.title {
+  color: black;
+  font-size: 2em;
+  font-weight: 450;
+  margin: 1em 0em;
+}
+
+.skillBadgeContainer {
+  margin-bottom: 6em;
+  width: 60%;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 2.5em;
+  padding: 1em;
+  align-content: center;
+}
+
+.skillBadge {
+  height: 6em;
+  margin: 2em 0em;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease-in-out;
+  transform-origin: center;
+}
+
+.skillBadge:hover {
+  transform: scale(1.15);
+}
+
+.skillText {
+  margin: 0.5em 0em;
+  font-size: 1.25em;
+}
+
+.skillLogo {
+  max-width: 100%;
+  max-height: 100%;
+}

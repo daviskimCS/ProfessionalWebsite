@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+  font-family: Jakarta;
+}
+
+.App-header {
+  background-color: rgb(250, 250, 250);
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1vmin);
+  z-index: 1;
+}
+
+@font-face {
+  font-family: Jakarta;
+  src: url(./styles/static/PlusJakartaSans-VariableFont_wght.ttf);
+}
+
+.full-container {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(249, 250, 251);
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.buttonContainer {
+  height: 3em;
+  width: 3em;
+  position: absolute;
+  bottom: 2em;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background-color: white;
+  color: white;
+  border: 3px solid rgba(0, 0, 0, 0);
+}
+
+.buttonContainer:hover {
+  background-color: rgb(228, 231, 235);
+}
+
+.backing {
+  background-color: white;
+  z-index: 40;
+  border: 6px solid red;
+  width: 100%;
+}
+
+#particle {
+  z-index: -100;
+  height: 1em;
+}
+
