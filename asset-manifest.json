@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/ProfessionalWebsite/static/css/main.9eb7792a.css",
+    "main.js": "/ProfessionalWebsite/static/js/main.bbd4cb29.js",
+    "static/js/453.21f9ffdc.chunk.js": "/ProfessionalWebsite/static/js/453.21f9ffdc.chunk.js",
+    "static/media/ThetaTau.png": "/ProfessionalWebsite/static/media/ThetaTau.656f8eaa7c47b79c71be.png",
+    "static/media/pythonLogo.png": "/ProfessionalWebsite/static/media/pythonLogo.c44b9b809ebf766cbb4f.png",
+    "static/media/PlusJakartaSans-VariableFont_wght.ttf": "/ProfessionalWebsite/static/media/PlusJakartaSans-VariableFont_wght.91a892b057d3b1e6c20b.ttf",
+    "static/media/combatChaos.png": "/ProfessionalWebsite/static/media/combatChaos.8be19716f043013b658d.png",
+    "static/media/DavisKimResume.pdf": "/ProfessionalWebsite/static/media/DavisKimResume.7bd860300611de41e931.pdf",
+    "static/media/ProfessionalHeadshot.jpeg": "/ProfessionalWebsite/static/media/ProfessionalHeadshot.5a76b6239a2a0b114c9c.jpeg",
+    "static/media/cppLogo.png": "/ProfessionalWebsite/static/media/cppLogo.053a898d752aef72651e.png",
+    "static/media/ucrLogo.jpg": "/ProfessionalWebsite/static/media/ucrLogo.a1b119c366dd32ed9a2e.jpg",
+    "static/media/swiftLogo.png": "/ProfessionalWebsite/static/media/swiftLogo.55353ceb4b7287584128.png",
+    "static/media/resumeLogo.png": "/ProfessionalWebsite/static/media/resumeLogo.a9ca33c05fa59c04489a.png",
+    "static/media/swiftUILogo.png": "/ProfessionalWebsite/static/media/swiftUILogo.b09241f82dd59f4a2811.png",
+    "static/media/reactLogo.png": "/ProfessionalWebsite/static/media/reactLogo.edaa26ea451b64856d19.png",
+    "static/media/linkedinLogo.png": "/ProfessionalWebsite/static/media/linkedinLogo.9a1a7f8162140e296345.png",
+    "index.html": "/ProfessionalWebsite/index.html",
+    "main.9eb7792a.css.map": "/ProfessionalWebsite/static/css/main.9eb7792a.css.map",
+    "main.bbd4cb29.js.map": "/ProfessionalWebsite/static/js/main.bbd4cb29.js.map",
+    "453.21f9ffdc.chunk.js.map": "/ProfessionalWebsite/static/js/453.21f9ffdc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9eb7792a.css",
+    "static/js/main.bbd4cb29.js"
+  ]
+}
