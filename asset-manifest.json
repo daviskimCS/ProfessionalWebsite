@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ProfessionalWebsite/static/css/main.9eb7792a.css",
-    "main.js": "/ProfessionalWebsite/static/js/main.bbd4cb29.js",
+    "main.css": "/ProfessionalWebsite/static/css/main.a4a1a45f.css",
+    "main.js": "/ProfessionalWebsite/static/js/main.b975717b.js",
     "static/js/453.21f9ffdc.chunk.js": "/ProfessionalWebsite/static/js/453.21f9ffdc.chunk.js",
     "static/media/ThetaTau.png": "/ProfessionalWebsite/static/media/ThetaTau.656f8eaa7c47b79c71be.png",
     "static/media/pythonLogo.png": "/ProfessionalWebsite/static/media/pythonLogo.c44b9b809ebf766cbb4f.png",
@@ -17,12 +17,12 @@
     "static/media/reactLogo.png": "/ProfessionalWebsite/static/media/reactLogo.edaa26ea451b64856d19.png",
     "static/media/linkedinLogo.png": "/ProfessionalWebsite/static/media/linkedinLogo.9a1a7f8162140e296345.png",
     "index.html": "/ProfessionalWebsite/index.html",
-    "main.9eb7792a.css.map": "/ProfessionalWebsite/static/css/main.9eb7792a.css.map",
-    "main.bbd4cb29.js.map": "/ProfessionalWebsite/static/js/main.bbd4cb29.js.map",
+    "main.a4a1a45f.css.map": "/ProfessionalWebsite/static/css/main.a4a1a45f.css.map",
+    "main.b975717b.js.map": "/ProfessionalWebsite/static/js/main.b975717b.js.map",
     "453.21f9ffdc.chunk.js.map": "/ProfessionalWebsite/static/js/453.21f9ffdc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9eb7792a.css",
-    "static/js/main.bbd4cb29.js"
+    "static/css/main.a4a1a45f.css",
+    "static/js/main.b975717b.js"
   ]
 }
