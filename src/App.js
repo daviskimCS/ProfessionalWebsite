@@ -1,7 +1,7 @@
 // import React, { useRef, useState, useEffect } from "react"
+// import { useInView, InView } from "react-intersection-observer"
 
-import React, { useRef, useState } from "react"
-import { useInView, InView } from "react-intersection-observer"
+import React, { useRef } from "react"
 
 import Navbar from "./components/Navbar.js"
 import Home from "./components/Home.js"
@@ -31,30 +31,29 @@ function App() {
   const educationRef = useRef(null)
   const contactRef = useRef(null)
 
-  const refs = [
-    homeRef,
-    aboutRef,
-    skillRef,
-    projectRef,
-    experienceRef,
-    educationRef,
-    contactRef,
-  ]
-
   const scrollTo = (ref) => {
     if (ref.current) {
       ref.current.scrollIntoView({ behavior: "smooth", block: "start" })
     }
   }
 
-  const [visibleSection, setVisibleSection] = useState(refs[0])
+  // const [visibleSection, setVisibleSection] = useState(refs[0])
 
-  // callback called when a section is in view
-  const setInView = (inView, entry) => {
-    if (inView) {
-      setVisibleSection(entry.target.getAttribute("id"))
-    }
-  }
+  // const refs = [
+  //   homeRef,
+  //   aboutRef,
+  //   skillRef,
+  //   projectRef,
+  //   experienceRef,
+  //   educationRef,
+  //   contactRef,
+  // ]
+
+  // const setInView = (inView, entry) => {
+  //   if (inView) {
+  //     setVisibleSection(entry.target.getAttribute("id"))
+  //   }
+  // }
 
   return (
     <div className="App">
@@ -74,16 +73,16 @@ function App() {
         <div className="full-container">
           <Parallax pages={6.8}>
             <ParallaxLayer offset={0} factor={1} speed={1.5}>
-              <InView onChange={setInView} threshold={0.8}>
-                <Particle id="particle" />
-                <Home id="home" ref={homeRef}></Home>
-                <img
-                  onClick={() => scrollTo(aboutRef)}
-                  src={arrow}
-                  alt="down arrow button"
-                  className="buttonContainer"
-                ></img>
-              </InView>
+              {/* <InView onChange={setInView} threshold={0.8}> */}
+              <Particle id="particle" />
+              <Home id="home" ref={homeRef}></Home>
+              <img
+                onClick={() => scrollTo(aboutRef)}
+                src={arrow}
+                alt="down arrow button"
+                className="buttonContainer"
+              ></img>
+              {/* </InView> */}
             </ParallaxLayer>
             <ParallaxLayer
               className={styles.titleLayer}

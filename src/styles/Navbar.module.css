@@ -62,10 +62,18 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: rgb(243,244,246);
+  background-color: rgb(243, 244, 246);
   padding: 0.25em 0.5em;
   height: 2em;
   border-radius: 1.75em;
 }
 
 /* add animation between switching manually and scrolling */
+
+@media (max-width: 1000px) {
+  .navBar {
+    width: 50%;
+    flex-wrap: wrap;
+    height: fit-content;
+  }
+}

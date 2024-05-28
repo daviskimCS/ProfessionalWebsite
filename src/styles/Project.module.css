@@ -58,3 +58,13 @@
 .projectContainer:hover {
   background-color: rgb(228, 231, 235);
 }
+
+@media (max-width: 1000px) {
+  .projectContainer {
+    width: 70%;
+  }
+
+  .projectContainer img {
+    display: none;
+  }
+}

@@ -33,7 +33,7 @@
 }
 
 .profileName {
-   position: inherit;
+  position: inherit;
   color: white;
   font-size: 3em;
   font-weight: 575;
@@ -111,4 +111,27 @@ a {
 
 .linkedinLogo {
   height: 65%;
+}
+
+@media (max-width: 1000px) {
+  .topButton {
+    width: 50%;
+  }
+  .buttonContainer {
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+  }
+
+  .topButton:first-of-type {
+    margin-bottom: 1em;
+  }
+
+  .topButton:last-of-type {
+    margin-top: 1em;
+  }
+
+  .profileDescriptionContainer {
+    width: 75%;
+  }
 }

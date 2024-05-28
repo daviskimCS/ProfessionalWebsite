@@ -38,7 +38,7 @@ const Experience = React.forwardRef((props, ref) => {
       </a>
 
       <a
-        href="https://www.thetatau.org"
+        href="https://housing.ucr.edu/image/restech"
         target="_blank"
         rel="noopener noreferrer"
         className={styles.expContainer}
@@ -46,12 +46,8 @@ const Experience = React.forwardRef((props, ref) => {
       >
         <img src={UCR} alt="Theta Tau Logo"></img>
         <div className={styles.rightContent}>
-          <div className={styles.degree}>
-            Residential Technical Assistant
-          </div>
-          <div className={styles.degreeText}>
-            UCR Housing Services
-          </div>
+          <div className={styles.degree}>Residential Technical Assistant</div>
+          <div className={styles.degreeText}>UCR Housing Services</div>
           <ul>
             <li>
               In UCR's housing service, I provide customer service to residents
