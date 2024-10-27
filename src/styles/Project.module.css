@@ -1,70 +1,92 @@
 .projectContainer {
-  display: block;
-  margin: 3em 0em;
-  justify-content: end;
-  height: 25em;
-  border-radius: 1em;
-  overflow: hidden;
-  background-color: rgb(244, 245, 247);
-  border: 1px solid rgba(164, 164, 164, 0.5);
-  box-shadow: 0.01em 0.01em 1em 0.01em rgba(0, 0, 0, 0.15);
-  z-index: 100;
-  position: relative;
-  width: 50em;
+	display: block;
+	margin: 3em 0em;
+	justify-content: end;
+	height: 25em;
+	border-radius: 1em;
+	overflow: hidden;
+	background-color: rgb(244, 245, 247);
+	border: 1px solid rgba(164, 164, 164, 0.5);
+	box-shadow: 0.01em 0.01em 1em 0.01em rgba(0, 0, 0, 0.15);
+	z-index: 100;
+	position: relative;
+	width: 50em;
+}
+
+.topInfo {
+	display: flex;
+	flex-direction: row;
+	text-align: start;
+	margin: 2em 0em 0em 2em;
+}
+
+.techIcons {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1em;
+	margin-top: 8px;
+	justify-content: space-between;
+	margin-left: 3em;
+	/* border: 3px solid red; */
+}
+
+.techLogo {
+	display: block;
+	max-width: 60px;
+	max-height: 50px;
+	width: auto;
+	height: auto;
 }
 
 .leftInfo {
-  display: flex;
-  flex-direction: column;
-  text-align: start;
-  margin: 2em 0em 2em 2em;
-  width: 50%;
+	display: flex;
+	flex-direction: column;
+	text-align: start;
+	margin: 0em 0em 2em 2em;
+	width: 50%;
 }
 
 .title {
-  font-size: 1.5em;
-  font-weight: 500;
-}
-
-.technologies {
-  margin-top: 1em;
+	font-size: 1.5em;
+	font-weight: 500;
+	width: 50%;
 }
 
 .desc {
-  margin-top: 1em;
-  font-size: 1em;
-  font-weight: 400;
+	margin-top: 1em;
+	font-size: 1em;
+	font-weight: 400;
 }
 
-.projectContainer img {
-  align-self: flex-end;
-  max-width: 100%;
-  max-height: 90%;
-  border-radius: 1em;
-  box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.15);
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 0.25s;
-  transform-origin: center;
-  position: relative;
-  left: 50%;
-  top: -50%;
-  margin: 0em;
+.projectContainer > img {
+	align-self: flex-end;
+	max-width: 100%;
+	max-height: 90%;
+	border-radius: 1em;
+	box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.15);
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition-duration: 0.25s;
+	transform-origin: center;
+	position: relative;
+	left: 40%;
+	top: -55%;
+	margin: 0em;
 }
 
-.projectContainer:hover img {
-  transform: rotate(-0.0125turn) translateY(1em) translateX(-1em);
+.projectContainer:hover > img {
+	transform: rotate(-0.0125turn) translateY(1em) translateX(-1em);
 }
 
 .projectContainer:hover {
-  background-color: rgb(228, 231, 235);
+	background-color: rgb(228, 231, 235);
 }
 
 @media (max-width: 1000px) {
-  .projectContainer {
-    width: 70%;
-  }
+	.projectContainer {
+		width: 70%;
+	}
 
-  .projectContainer img {
-    display: none;
-  }
+	.projectContainer img {
+		display: none;
+	}
 }

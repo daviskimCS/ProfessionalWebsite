@@ -1,41 +1,41 @@
 .projectContent {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .title {
-  color: black;
-  font-size: 2em;
-  font-weight: 450;
-  margin: 1em 0em;
-  padding: 1em;
-  border-radius: 1em;
-  background-color: rgba(250, 250, 250, 0.75);
-  z-index: 100;
+	color: black;
+	font-size: 2em;
+	font-weight: 450;
+	margin: 1em 0em;
+	padding: 1em;
+	border-radius: 1em;
+	background-color: rgba(250, 250, 250, 0.75);
+	z-index: 100;
 }
 
 .titleLayer {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  padding-top: 4em;
-  pointer-events: none;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	/* border: 3px solid red; */
+	pointer-events: none;
 }
 
 .layer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
 }
 
 .projectColumn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
 }

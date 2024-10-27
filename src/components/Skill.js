@@ -8,7 +8,7 @@ import css from "../styles/static/cssLogo.png"
 import html from "../styles/static/htmlLogo.png"
 import swift from "../styles/static/swiftLogo.png"
 import swiftUI from "../styles/static/swiftUILogo.png"
-// import express from "../styles/static/expressLogo.png"
+import express from "../styles/static/expressLogo.png"
 import node from "../styles/static/nodeLogo.png"
 import react from "../styles/static/reactLogo.png"
 import rust from "../styles/static/rustLogo.png"
@@ -19,12 +19,13 @@ import firebase from "../styles/static/firebaseLogo.png"
 
 const skills = [
   { imgSrc: js, alt: "JavaScript Logo", skillName: "JavaScript" },
-  { imgSrc: react, alt: "React Logo", skillName: "React.js" },
+  { imgSrc: react, alt: "React.js Logo", skillName: "React.js" },
   { imgSrc: node, alt: "Node.js Logo", skillName: "Node.js" },
   { imgSrc: cpp, alt: "C++ Logo", skillName: "C++" },
   { imgSrc: python, alt: "Python Logo", skillName: "Python" },
   { imgSrc: css, alt: "CSS Logo", skillName: "CSS" },
   { imgSrc: html, alt: "HTML Logo", skillName: "HTML" },
+  { imgSrc: express, alt: "Express.js", skillName: "Express.js" },
   { imgSrc: swift, alt: "Swift Logo", skillName: "Swift" },
   { imgSrc: swiftUI, alt: "SwiftUI Logo", skillName: "SwiftUI" },
   { imgSrc: firebase, alt: "Firebase Logo", skillName: "Firebase" },
